@@ -29,6 +29,22 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# HS2 gems
+gem 'opal', github: 'janbiedermann/opal', branch: 'es6_import_export'
+gem 'opal-autoloader', github: 'janbiedermann/opal-autoloader', branch: 'master'
+gem 'hyper-business', github: 'janbiedermann/hyper-business', branch: 'ulysses'
+gem 'hyper-gate', github: 'janbiedermann/hyper-gate', branch: 'ulysses'
+#gem 'hyper-international', github: 'janbiedermann/hyper-international', branch: 'ulysses'
+gem 'hyper-react', github: 'janbiedermann/hyper-react', branch: 'ulysses'
+gem 'hyper-resource', github: 'janbiedermann/hyper-resource', branch: 'ulysses'
+gem 'hyper-router', github: 'janbiedermann/hyper-router', branch: 'ulysses'
+#gem 'hyper-spectre', github: 'janbiedermann/hyper-spectre', branch: 'master'
+gem 'hyper-store', github: 'janbiedermann/hyper-store', branch: 'ulysses'
+gem 'hyper-transport-actioncable', github: 'janbiedermann/hyper-transport-actioncable', branch: 'ulysses'
+gem 'hyper-transport-store-redis', github: 'janbiedermann/hyper-transport-store-redis', branch: 'ulysses'
+gem 'hyper-transport', github: 'janbiedermann/hyper-transport', branch: 'ulysses'
+gem 'opal-webpack-compile-server', github: 'janbiedermann/opal-webpack-compile-server', branch: 'master'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
